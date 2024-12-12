@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="da2bf76b-fe0a-48cf-8f47-b05387939a84" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.vscode/c_cpp_properties.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.vscode/tasks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BMI/BMI.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BMI/BMI.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BMI/BMI.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BMI/BMI.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BMI/BMI.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BMI/IMAGES/black-wolf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BMI/IMAGES/city.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BMI/IMAGES/pop-bubble.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ files/Area of a circle.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ files/Area of a circle.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ files/BMI.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ files/Calculator.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ files/Calculator.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ files/FUNCTIONS.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ files/FUNCTIONS.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ files/First C++.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ files/First C++.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ files/Inflation.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ files/Inflation.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ files/Self Test.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ files/Self Test.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ files/assignment.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ files/assignment.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ files/classes and objects.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ files/classes and objects.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ files/number base.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ files/number base.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ files/salary checker.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ files/salary checker.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ files/switch statement.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ files/switch statement.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Christian Gyan - BCICT22115.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Christian Gyan - BCICT22115/Web Tech Quiz.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Christian Gyan - BCICT22115/Wed Tech Quiz.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Christian Gyan - BCICT22115/farmgrow-industries-v12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Christian Gyan - BCICT22115/pic-A.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FIIFI/1gyan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FIIFI/AIMLORD report.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FIIFI/CHRIS GYAN-MY APPLICATION.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FIIFI/CHRIS GYAN-MY APPLICATION.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FIIFI/CURRICULUM VITAE Christian.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FIIFI/ER-DIAGRAM.drawio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FIIFI/Hosting details.pst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Internship/assets/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Internship/assets/icon-facebook.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Internship/assets/icon-instagram.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Internship/assets/icon-twitter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Internship/assets/image-hero-landscape.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Internship/assets/image-hero-landscape.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Internship/assets/image-hero-landscape@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Internship/assets/image-hero-landscape@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Internship/assets/image-hero-portrait.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Internship/assets/image-hero-portrait.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Internship/assets/image-hero-portrait@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Internship/assets/image-hero-portrait@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Internship/assets/image-jeremy-large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Internship/assets/image-jeremy-large.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Internship/assets/image-jeremy-large@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Internship/assets/image-jeremy-large@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Internship/assets/image-jeremy-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Internship/assets/image-jeremy-small.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Internship/assets/image-jeremy-small@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Internship/assets/image-jeremy-small@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Internship/assets/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Internship/assets/pattern-blur.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Internship/assets/pattern-curved-line-1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Internship/assets/pattern-curved-line-2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Internship/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Internship/kelvin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Internship/lvl 100 project/3-Column-Component-Preview-Card" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Internship/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KIDDIE/Kiddie site/Images/cloth-mom-dad.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KIDDIE/Kiddie site/Images/cloth-yellow.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KIDDIE/Kiddie site/Images/cot-1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KIDDIE/Kiddie site/Images/cot-2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KIDDIE/Kiddie site/Images/cot-3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KIDDIE/Kiddie site/Images/cot-4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KIDDIE/Kiddie site/Images/desktop-wallpaper-cute-girl-baby-child-is-lying-down-on-white-cloth-wearing-pink-dress-and-headband-cute.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KIDDIE/Kiddie site/Images/desktop-wallpaper-libra-baby-girl-baby-boy-clothes.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KIDDIE/Kiddie site/Images/kiddie-wallpaper.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KIDDIE/Kiddie site/Images/old navy.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KIDDIE/Kiddie site/Images/shoe-1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KIDDIE/Kiddie site/Images/shoe-2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KIDDIE/Kiddie site/Images/shoe-3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KIDDIE/Kiddie site/Images/shoe-4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KIDDIE/Kiddie site/Images/shoe-5.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KIDDIE/Kiddie site/Images/shoe-6.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KIDDIE/Kiddie site/Kiddie.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KIDDIE/Kiddie site/Kiddie.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KIDDIE/Kiddie site/Kiddie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MINI-PROJECT/portfolio1/Images/SHSTVET_SCHOOLS.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MINI-PROJECT/portfolio1/Images/city.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MINI-PROJECT/portfolio1/Images/dark-human-person-anonymous-hood.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MINI-PROJECT/portfolio1/Images/desktop-wallpaper-heavy-metal-group-rock-metal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MINI-PROJECT/portfolio1/Images/go-hard-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MINI-PROJECT/portfolio1/Images/go-hard.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MINI-PROJECT/portfolio1/Images/img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MINI-PROJECT/portfolio1/Images/img2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MINI-PROJECT/portfolio1/Images/img3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MINI-PROJECT/portfolio1/Images/img4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MINI-PROJECT/portfolio1/Images/img5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MINI-PROJECT/portfolio1/Images/img6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MINI-PROJECT/portfolio1/Images/mine-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MINI-PROJECT/portfolio1/Images/mine-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MINI-PROJECT/portfolio1/Images/mining-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MINI-PROJECT/portfolio1/Images/mining-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MINI-PROJECT/portfolio1/Images/mining-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MINI-PROJECT/portfolio1/Images/mining-wallpaper-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MINI-PROJECT/portfolio1/Images/moon-in-black-screen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MINI-PROJECT/portfolio1/Images/oil-field.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MINI-PROJECT/portfolio1/Images/oil-gas-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MINI-PROJECT/portfolio1/Images/oil-gas-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MINI-PROJECT/portfolio1/Images/oil-gas-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MINI-PROJECT/portfolio1/Images/oil-gas-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MINI-PROJECT/portfolio1/Images/oil-gas-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MINI-PROJECT/portfolio1/Images/oil-gas-wallpaper-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MINI-PROJECT/portfolio1/Images/oil-gas-wallpaper-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MINI-PROJECT/portfolio1/Images/oil-gas-wallpaper-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MINI-PROJECT/portfolio1/Images/pop-bubble.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MINI-PROJECT/portfolio1/Images/power-station-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MINI-PROJECT/portfolio1/Images/power-station-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MINI-PROJECT/portfolio1/Images/power-station.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MINI-PROJECT/portfolio1/Images/ps-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MINI-PROJECT/portfolio1/Images/ps-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MINI-PROJECT/portfolio1/Images/ps-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MINI-PROJECT/portfolio1/Images/rig-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MINI-PROJECT/portfolio1/Images/rig-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MINI-PROJECT/portfolio1/Images/rig-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MINI-PROJECT/portfolio1/Images/rig.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MINI-PROJECT/portfolio1/Images/sam-kevern-oil-oil-refinery.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MINI-PROJECT/portfolio1/Images/waterdrops-on-feather.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MINI-PROJECT/portfolio1/Images/welder-high-quality-welding.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MINI-PROJECT/portfolio1/portfolio.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MINI-PROJECT/portfolio1/portfolio.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MINI-PROJECT/portfolio2/.~lock.Group 23 - Portfolio Documentation (1).docx#" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MINI-PROJECT/portfolio2/Group 23 - Portfolio Documentation.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MINI-PROJECT/portfolio2/documents.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MINI-PROJECT/portfolio2/group 23 video presentation.mkv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MINI-PROJECT/portfolio2/images/abs.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MINI-PROJECT/portfolio2/images/man.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MINI-PROJECT/portfolio2/images/pp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MINI-PROJECT/portfolio2/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MINI-PROJECT/portfolio2/reference.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MINI-PROJECT/portfolio2/resume.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MINI-PROJECT/portfolio2/styles/gerneral2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MINI-PROJECT/portfolio2/styles/resume.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MINI-PROJECT/portfolio2/styles/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MY PORTFILIO/html/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MY PORTFILIO/html/contact-me.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MY PORTFILIO/html/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MY PORTFILIO/html/project.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MY PORTFILIO/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../MY PORTFILIO/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MY PORTFILIO/styles/about.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MY PORTFILIO/styles/contact-me.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MY PORTFILIO/styles/general.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MY PORTFILIO/styles/project.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MY PORTFILIO/styles/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OTHER PROJECTS/MIDSEMESTER EXAMINATIONS_BTECH_2023.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OTHER PROJECTS/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OTHER PROJECTS/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OTHER PROJECTS/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PYHTON/bmi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/-binary-code.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/1gyan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/1st sem report .png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/2gyan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/3gyan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/4gyan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/5gyan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/Accounting.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/Introduction to Computer Hardware.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/Screenshot 2023-08-04 223334.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/WASSCE RESULT.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/WASSCE RESULT.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/What_is_CPP.avif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/abstract.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/adobelogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/ag-cert.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/ag-cert.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/android-chrome-192x192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/android-chrome-512x512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/andy-me-handinp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/andy-me.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/baby-fiifi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/bece-result.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/bece-result.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/bigbro-and-myself.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/bigbro-lizzy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/bigrbo-granny-myself.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/black-wolf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/c++.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/cgame.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/city.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/code-top.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/coding-programming.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/commskills.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/computer hardware.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/construction.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/cover LinkedIn.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/cpp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/dark-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/dark-face.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/darko-me-bonyo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/darko-me-smile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/datab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/database.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/dbase.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/dem-boys.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/desktopjpeg.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/dim-screen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/dot-spot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/elecronics-pract.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/favicon-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/fekwon-cert.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/fekwon-cert.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/fiifi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/gordon fiifi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/granny.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/happy1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/joker.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/lilcousine-myself.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/lilsis-cousinelizzy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/lizzy-nhyira.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/mama-daughter .jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/mama-smiles.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/mama.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/matt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/me-andy-smile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/me-atetee.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/me-presentation .jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/me-t.hat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/mealone-t-hat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/moon-in-black-screen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/nhyira-lizzy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/normal-selfie-with-uncle-bigbro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/otabil.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/pictures-at-the-engagement.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/pop-bubble.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/python.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/robort.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/salami.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/setting.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/site.webmanifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/softcode.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/spark.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/stef.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/testimonial.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/testimonial.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/the-pose.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/twosure.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/unsplash.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/vec.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/wallpaper.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/wassce-result.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/waterdrops-on-feather.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/web-tech.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/webtechnology.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/with-mama.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/with-my-uncle.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/wynberg-IT.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/young-star.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/Images/zd-coding-ebook.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/about me.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/about me.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/contact-form.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/contact-form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/contact-form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/document.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/document.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/img/email.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/img/location.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/img/phone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/img/shape.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/photos.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/photos.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/ref-test.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/ref-test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERIOUS FILES/web tech.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web tech mid sem.zip" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2phzjnDGeth52G3Qb0O2zY0l74F" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "AndroidSdkUpdater",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da2bf76b-fe0a-48cf-8f47-b05387939a84" name="Changes" comment="" />
+      <created>1733233246033</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733233246033</updated>
+    </task>
+    <servers />
+  </component>
+</project>
