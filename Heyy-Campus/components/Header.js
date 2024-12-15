@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, Text, TouchableOpacity, StyleSheet, Image } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
+import SCREENS from '../screens/index';
 
 const ICONS = {
   HAMBURGER: require('../assets/images/hamburger.png'),
@@ -21,7 +22,7 @@ const Header = ({ title, onNotificationPress }) => {
       <Text style={styles.title}>{title}</Text>
 
       {/* Notification Icon */}
-      <TouchableOpacity onPress={onNotificationPress}>
+      <TouchableOpacity onPress={() => navigation.navigate(SCREENS.NOTIFICATION)} >
         <Image source={ICONS.NOTIFICATION} style={styles.icon} />
       </TouchableOpacity>
     </View>
