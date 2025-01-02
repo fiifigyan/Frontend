@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { useNavigation } from '@react-navigation/native';
 import { StatusBar, SafeAreaView, StyleSheet } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
-// import StackNavigator from './navigation/StackNavigator';
 import AuthStack from './navigation/AuthStack';
-
+import { isLoading, isLoggedIn } from './context/AuthContext';
 import { AuthProvider } from './context/AuthContext';
+import DrawerNavigator from './navigation/StackNavigator';
+import OnboardingScreen from './screens/tabs/OnboardingScreen';
 
 function App() {
   return (
@@ -12,8 +14,18 @@ function App() {
       <SafeAreaView style={styles.safeArea}>
         <StatusBar barStyle="light-content" backgroundColor="#007AFF" />
         <NavigationContainer>
-          <AuthStack />
-          {/* StackNavigator will now be conditionally rendered based on AuthContext */}
+          {
+            // We haven't finished checking for the token yet, show a splash screen
+            isLoading ? (
+              <OnboardingScreen/>
+            ) :
+            isLoggedIn ? ( 
+            <DrawerNavigator /> 
+            ) : (
+            <AuthStack />
+            )
+          }
+          {/* <DrawerNavigator /> */}
         </NavigationContainer>
       </SafeAreaView>
     </AuthProvider>

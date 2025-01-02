@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { View, Text, Image, TouchableOpacity, ScrollView, StyleSheet } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
+import ICONS from '../../assets/index';
+
 
 const HomeScreen = () => {
   // State for profile data
@@ -30,8 +32,6 @@ const HomeScreen = () => {
 
   return (
     <SafeAreaView style={styles.container}>
-      {/* <Header title="HEYY CAMPUS" /> */}
-      {/* Main Content */}
       <ScrollView contentContainerStyle={styles.content}>
         {/* Profile Section */}
         <View style={styles.profileCard}>
@@ -60,15 +60,47 @@ const HomeScreen = () => {
           <Text style={styles.sectionTitle}>Academics</Text>
           <View style={styles.academicOptions}>
             <TouchableOpacity style={styles.academicItem}>
+            <Image
+              source={ICONS.ATTENDANCE}
+              style={{
+                width: 22,
+                height: 22,
+                // tintColor: focused ? '#007AFF' : '#000',
+              }}
+            />
               <Text>Attendance</Text>
             </TouchableOpacity>
             <TouchableOpacity style={styles.academicItem}>
+            <Image
+              source={ICONS.FEES}
+              style={{
+                width: 22,
+                height: 22,
+                // tintColor: focused ? '#007AFF' : '#000',
+              }}
+            />
               <Text>Fees</Text>
             </TouchableOpacity>
             <TouchableOpacity style={styles.academicItem}>
+            <Image
+              source={ICONS.HOME}
+              style={{
+                width: 22,
+                height: 22,
+                // tintColor: focused ? '#007AFF' : '#000',
+              }}
+            />
               <Text>Ask Doubt</Text>
             </TouchableOpacity>
             <TouchableOpacity style={styles.academicItem}>
+            <Image
+              source={ICONS.HOME}
+              style={{
+                width: 22,
+                height: 22,
+                // tintColor: focused ? '#007AFF' : '#000',
+              }}
+            />
               <Text>Live Tracking</Text>
             </TouchableOpacity>
           </View>

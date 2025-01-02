@@ -1,1 +1,1 @@
-BASE_URL = 'https://schema.getpostman.com/json/collection/v2.1.0/collection.json';
+export const BASE_URL = 'https://schema.getpostman.com/json/collection/v2.1.0/collection.json';

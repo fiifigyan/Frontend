@@ -1,13 +1,12 @@
 import React, { useState, useContext } from 'react';
 import { View, Text, TextInput, TouchableOpacity, ScrollView, Alert, ActivityIndicator } from 'react-native';
 import globalStyles from '../../shared/globalStyles';
-import SCREENS from '../index';
+import SCREENS from '../../screens/index';
 import { AuthContext } from '../../context/AuthContext';
 
 const SignupScreen = ({ navigation }) => {
   const [userInfo, setUserInfo] = useState({
     firstName: '',
-    // middleName: '',
     lastName: '',
     email: '',
     password: '',
@@ -16,7 +15,6 @@ const SignupScreen = ({ navigation }) => {
 
   const [touched, setTouched] = useState({
     firstName: false,
-    // middleName: false,
     lastName: false,
     email: false,
     password: false,
@@ -24,7 +22,7 @@ const SignupScreen = ({ navigation }) => {
   });
 
   const [errors, setErrors] = useState({});
-  const { signup, isLoading, error } = useContext(AuthContext);
+  const { register, isLoading, error } = useContext(AuthContext);
 
   const validationRules = {
     firstName: {
@@ -37,9 +35,6 @@ const SignupScreen = ({ navigation }) => {
       minLength: 2,
       errorMessage: 'Last name must be at least 2 characters'
     },
-    // middleName: {
-    //   required: false
-    // },
     email: {
       required: true,
       pattern: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
@@ -47,8 +42,8 @@ const SignupScreen = ({ navigation }) => {
     },
     password: {
       required: true,
-      minLength: 6,
-      errorMessage: 'Password must be at least 6 characters'
+      pattern: /^(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/,
+      errorMessage: 'Password must be at least 8 characters, with at least one capital letter, one symbol, and one number'
     },
     confirmPassword: {
       required: true,
@@ -109,7 +104,7 @@ const SignupScreen = ({ navigation }) => {
     if (validateForm()) {
       try {
         const { firstName, lastName, email, password } = userInfo;
-        await signup(firstName, lastName, email, password);
+        await register(firstName, lastName, email, password);
         
         Alert.alert(
           'Sign Up Successful', 
@@ -126,47 +121,6 @@ const SignupScreen = ({ navigation }) => {
     }
   };
 
-  // const handleSubmit = async () => {
-  //   setTouched({
-  //     firstName: true,
-  //     // middleName: true,
-  //     lastName: true,
-  //     email: true,
-  //     password: true,
-  //     confirmPassword: true
-  //   });
-
-  //   if (validateForm()) {
-  //     try {
-  //       // Use the signup method from AuthContext
-  //       const { 
-  //         firstName, 
-  //         // middleName, 
-  //         lastName, 
-  //         email, 
-  //         password 
-  //       } = userInfo;
-  //       await signup(
-  //         firstName, 
-  //         // middleName, 
-  //         lastName, 
-  //         email, 
-  //         password
-  //       );
-        
-  //       // Success alert (navigation will be handled by AuthProvider in App.js)
-  //       Alert.alert(
-  //         'Sign Up Successful', 
-  //         `Welcome, ${firstName} ${lastName}!`, 
-  //         [{ text: 'OK' }]
-  //       );
-  //     } catch (e) {
-  //       // Show error from the API
-  //       Alert.alert('Sign Up Failed', error || 'Unable to create account. Please try again.');
-  //     }
-  //   }
-  // };
-
   const handleInputChange = (name, text) => {
     setUserInfo(prev => ({...prev, [name]: text}));
     
@@ -175,7 +129,7 @@ const SignupScreen = ({ navigation }) => {
     }
   };
 
-  const renderInputField = (name, placeholder, secureTextEntry = false, optional = false) => {
+  const renderInputField = (name, placeholder, secureTextEntry = false) => {
     return (
       <View style={globalStyles.inputContainer}>
         <TextInput
@@ -183,7 +137,7 @@ const SignupScreen = ({ navigation }) => {
             globalStyles.input, 
             touched[name] && errors[name] && globalStyles.errorInput
           ]}
-          placeholder={optional ? `${placeholder} (Optional)` : placeholder}
+          placeholder={placeholder}
           value={userInfo[name]}
           secureTextEntry={secureTextEntry}
           keyboardType={name === 'email' ? 'email-address' : 'default'}
@@ -207,7 +161,6 @@ const SignupScreen = ({ navigation }) => {
       </View>
       <View style={globalStyles.form}>
         {renderInputField('firstName', 'First Name')}
-        {/* {renderInputField('middleName', 'Middle Name', false, true)} */}
         {renderInputField('lastName', 'Last Name')}
         {renderInputField('email', 'Email')}
         {renderInputField('password', 'Password', true)}

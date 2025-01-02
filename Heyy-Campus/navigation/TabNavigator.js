@@ -2,20 +2,22 @@ import React from 'react'
 import { Image } from 'react-native'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
-
 import HomeScreen from '../screens/tabs/HomeScreen';
-import CalenderScreen from '../screens/tabs/CalenderScreen';
+import CalendarScreen from '../screens/tabs/CalendarScreen';
 import ProfileScreen from '../screens/tabs/ProfileScreen';
+import NotificationScreen from '../screens/tabs/NotificationScreen';
+
 import SCREENS from '../screens/index';
 import ICONS from '../assets/index';
 
 
 const Tab = createBottomTabNavigator();
-
 const TabNavigator = () => {
   return (
     <Tab.Navigator
-      screenOptions={{ headerShown: false }}
+      screenOptions={{ 
+        headerShown: true
+      }}
     >
       <Tab.Screen
         name={SCREENS.HOME}
@@ -35,8 +37,8 @@ const TabNavigator = () => {
         }}
       />
       <Tab.Screen
-        name={SCREENS.CALENDER}
-        component={CalenderScreen}
+        name={SCREENS.CALENDAR}
+        component={CalendarScreen}
         options={{
           title: 'Calendar',
           tabBarIcon: ({ focused }) => (
@@ -68,8 +70,25 @@ const TabNavigator = () => {
           ),
         }}
       />
+      <Tab.Screen
+        name={SCREENS.NOTIFICATION}
+        component={NotificationScreen}
+        options={{
+          title: 'Notifications',
+          tabBarIcon: ({ focused }) => (
+            <Image
+              source={ICONS.NOTIFICATION}
+              style={{
+                height: 30,
+                width: 30,
+                tintColor: focused ? '#007AFF' : '#000',
+              }}
+            />
+          ),
+        }}
+      />
     </Tab.Navigator>
   );
 }
 
-export default TabNavigator
+export default TabNavigator;

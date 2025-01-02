@@ -1,11 +1,12 @@
 const SCREENS = {
     SIGNUP: 'Signup',
     LOGIN: 'Login',
-    FORGOTPASSWORD: 'ForgotPassword',
-    RESETPASSWORD: 'ResetPassword',
+    FORGOTPASSWORD: 'Forgot Password',
+    RESETPASSWORD: 'Reset Password',
     HOME: 'Home',
-    CALENDER: 'Calendar',
+    CALENDAR: 'Calendar',
     PROFILE: 'Profile',
     NOTIFICATION: 'Notification',
+    ONBOARD: 'Onboard',
 };
 export default SCREENS;

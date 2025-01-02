@@ -8,10 +8,13 @@ const ICONS = {
     LOGO: require('../assets/images/fiifi2.jpg'),
     SETTINGS: require('../assets/images/settings.png'),
     LOGOUT: require('../assets/images/logout.png'),
-    // BACK: require('../assets/images/back.png'),
-    // ADD: require('../assets/images/add.png'),
-    // EDIT: require('../assets/images/edit.png'),
-    // SEARCH: require('../assets/images/search.png'),
+    FEES: require('../assets/images/fees.png'),
+    ATTENDANCE: require('../assets/images/attendance.png'),
+
+    SPLASH1: require('../assets/images/welcome.png'),
+    SPLASH2: require('../assets/images/updated-resume.png'),
+    SPLASH3: require('../assets/images/event-updates.png'),
+    SPLASH4: require('../assets/images/secure-files.png'),
 }
 
 export default ICONS;
