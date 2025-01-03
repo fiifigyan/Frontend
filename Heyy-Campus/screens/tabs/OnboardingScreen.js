@@ -76,21 +76,21 @@ const slides = [
     title: 'Simplified Admissions',
     text: 'Apply for admissions and track your application easily.',
     image: ICONS.SPLASH2,
-    backgroundColor: '#4CAF50',
+    backgroundColor: '#2196F3',
   },
   {
     key: '3',
     title: 'Stay Connected',
     text: 'Get real-time updates and stay informed.',
     image: ICONS.SPLASH3,
-    backgroundColor: '#FFC107',
+    backgroundColor: '#2196F3',
   },
   {
     key: '4',
     title: 'Secure Document Storage',
     text: 'Store and access important documents anytime.',
     image: ICONS.SPLASH4,
-    backgroundColor: '#FF5722',
+    backgroundColor: '#2196F3',
   },
 ];
 

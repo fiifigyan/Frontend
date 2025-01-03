@@ -1,10 +1,26 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import React, { createContext, useEffect, useState } from 'react';
-import { useNavigation } from '@react-navigation/native';
-import SCREENS from '../screens/index';
-import {BASE_URL} from '../config'
+import { BASE_URL } from '../config';
+import axios from 'axios';
 
 export const AuthContext = createContext();
+
+// Axios interceptor to add the authorization header
+axios.interceptors.request.use(
+  async (config) => {
+    const userInfoString = await AsyncStorage.getItem('userInfo');
+    if (userInfoString) {
+      const userInfo = JSON.parse(userInfoString);
+      if (userInfo?.access_token) {
+        config.headers['Authorization'] = `Bearer ${userInfo.access_token}`;
+      }
+    }
+    return config;
+  },
+  (error) => {
+    return Promise.reject(error);
+  }
+);
 
 export const AuthProvider = ({ children }) => {
   const [userInfo, setUserInfo] = useState({});
@@ -17,20 +33,14 @@ export const AuthProvider = ({ children }) => {
 
     try {
       console.log('Signup payload:', { firstName, lastName, email, password });
-      const response = await fetch(`${BASE_URL}/register`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({ firstName, lastName, email, password })
+      const response = await axios.post(`${BASE_URL}/register`, {
+        firstName,
+        lastName,
+        email,
+        password
       });
 
-      if (!response.ok) {
-        const errorData = await response.json();
-        throw new Error(errorData.message || 'Signup failed');
-      }
-
-      const userInfo = await response.json();
+      const userInfo = response.data;
       console.log('Signup response:', userInfo);
       await AsyncStorage.setItem('userInfo', JSON.stringify(userInfo));
       setUserInfo(userInfo);
@@ -51,20 +61,12 @@ export const AuthProvider = ({ children }) => {
 
     try {
       console.log('Login payload:', { email, password });
-      const response = await fetch(`${BASE_URL}/login`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({ email, password })
+      const response = await axios.post(`${BASE_URL}/login`, {
+        email,
+        password
       });
 
-      if (!response.ok) {
-        const errorData = await response.json();
-        throw new Error(errorData.message || 'Login failed');
-      }
-
-      const userInfo = await response.json();
+      const userInfo = response.data;
       await AsyncStorage.setItem('userInfo', JSON.stringify(userInfo));
       setUserInfo(userInfo);
       setIsLoading(false);
@@ -83,17 +85,7 @@ export const AuthProvider = ({ children }) => {
 
     try {
       if (userInfo?.access_token) {
-        const response = await fetch(`${BASE_URL}/logout`, {
-          method: 'POST',
-          headers: {
-            'Authorization': `Bearer ${userInfo.access_token}`
-          }
-        });
-
-        if (!response.ok) {
-          const errorData = await response.json();
-          throw new Error(errorData.message || 'Logout failed');
-        }
+        await axios.post(`${BASE_URL}/logout`);
       }
 
       await AsyncStorage.removeItem('userInfo');

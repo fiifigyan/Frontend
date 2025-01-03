@@ -6,23 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="da2bf76b-fe0a-48cf-8f47-b05387939a84" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Heyy-Campus/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Heyy-Campus/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Heyy-Campus/assets/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Heyy-Campus/assets/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Heyy-Campus/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/Heyy-Campus/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Heyy-Campus/context/AuthContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/Heyy-Campus/context/AuthContext.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Heyy-Campus/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Heyy-Campus/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Heyy-Campus/navigation/AuthStack.js" beforeDir="false" afterPath="$PROJECT_DIR$/Heyy-Campus/navigation/AuthStack.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Heyy-Campus/navigation/DrawerNavigator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Heyy-Campus/navigation/StackNavigator.js" beforeDir="false" afterPath="$PROJECT_DIR$/Heyy-Campus/navigation/StackNavigator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Heyy-Campus/navigation/TabNavigator.js" beforeDir="false" afterPath="$PROJECT_DIR$/Heyy-Campus/navigation/TabNavigator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Heyy-Campus/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Heyy-Campus/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Heyy-Campus/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Heyy-Campus/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Heyy-Campus/screens/auth/SignupScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/Heyy-Campus/screens/auth/SignupScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Heyy-Campus/screens/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Heyy-Campus/screens/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Heyy-Campus/screens/tabs/CalenderScreen.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Heyy-Campus/screens/tabs/HomeScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/Heyy-Campus/screens/tabs/HomeScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Heyy-Campus/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/Heyy-Campus/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Heyy-Campus/screens/tabs/OnboardingScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/Heyy-Campus/screens/tabs/OnboardingScreen.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
